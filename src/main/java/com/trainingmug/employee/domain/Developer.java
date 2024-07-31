@@ -8,7 +8,7 @@ public class Developer extends Employee {
         super();
     }
 
-    public Developer(int empId, String name, String designation, float grossSalary, float travellingAllowances,
+    public Developer(long empId, String name, String designation, float grossSalary, float travellingAllowances,
                      float federalTax, float stateTax, float incrementPercentage, String bankAccountNo, int noOfProjects) {
         super(empId, name, designation, grossSalary, travellingAllowances, federalTax, stateTax, incrementPercentage,
                 bankAccountNo);

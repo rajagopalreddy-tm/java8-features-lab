@@ -8,7 +8,7 @@ public class Designer extends Employee {
         super();
     }
 
-    public Designer(int empId, String name, String designation, float grossSalary, float travellingAllowances,
+    public Designer(long empId, String name, String designation, float grossSalary, float travellingAllowances,
                     float federalTax, float stateTax, float incrementPercentage, String bankAccountNo, int noOfWebsites) {
         super(empId, name, designation, grossSalary, travellingAllowances, federalTax, stateTax, incrementPercentage,
                 bankAccountNo);

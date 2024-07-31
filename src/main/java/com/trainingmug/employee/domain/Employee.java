@@ -6,7 +6,7 @@ public class Employee {
 
     // Instance Variables
 
-    private int empId;
+    private long empId;
     private String name;
     private String designation;
     private float grossSalary;
@@ -26,7 +26,7 @@ public class Employee {
         employeeCount++;
     }
 
-    public Employee(int empId, String name, String designation, float grossSalary, float travellingAllowances,
+    public Employee(long empId, String name, String designation, float grossSalary, float travellingAllowances,
                     float federalTax, float stateTax, float incrementPercentage, String bankAccountNo) {
         this.empId = empId;
         this.name = name;
@@ -74,11 +74,11 @@ public class Employee {
         return netSalary;
     }
 
-    public int getEmpId() {
+    public long getEmpId() {
         return empId;
     }
 
-    public void setEmpId(int empId) {
+    public void setEmpId(long empId) {
         this.empId = empId;
     }
 
