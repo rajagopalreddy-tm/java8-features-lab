@@ -3,7 +3,6 @@ package com.trainingmug.employee.repository;
 import com.trainingmug.employee.domain.Designer;
 import com.trainingmug.employee.domain.Developer;
 import com.trainingmug.employee.domain.Employee;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
